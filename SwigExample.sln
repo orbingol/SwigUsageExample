@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyLibrary", "MyLibrary\MyLibrary.vcxproj", "{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyLibraryNI", "MyLibraryNI\MyLibraryNI.vcxproj", "{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrarySharp", "MyLibrarySharp\MyLibrarySharp.csproj", "{3D536BA6-2CB8-4E51-9602-A8C078D89F22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF} = {5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTest", "CSharpTest\CSharpTest.csproj", "{C31198E4-59C0-48DC-8CA4-5C66B91F0B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Java|Win32 = Java|Win32
+		Python|Win32 = Python|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}.Debug|Win32.Build.0 = Debug|Win32
+		{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}.Java|Win32.ActiveCfg = Release|Win32
+		{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}.Java|Win32.Build.0 = Release|Win32
+		{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}.Python|Win32.ActiveCfg = Release|Win32
+		{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}.Python|Win32.Build.0 = Release|Win32
+		{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}.Release|Win32.ActiveCfg = Release|Win32
+		{E9C3C3B4-0A71-4E90-9F63-84B3448C2584}.Release|Win32.Build.0 = Release|Win32
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}.Debug|Win32.Build.0 = Debug|Win32
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}.Java|Win32.ActiveCfg = Java|Win32
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}.Java|Win32.Build.0 = Java|Win32
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}.Python|Win32.ActiveCfg = Python|Win32
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}.Python|Win32.Build.0 = Python|Win32
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}.Release|Win32.ActiveCfg = Release|Win32
+		{5FA442E5-15AA-4AE1-94B8-74C67D08D9BF}.Release|Win32.Build.0 = Release|Win32
+		{3D536BA6-2CB8-4E51-9602-A8C078D89F22}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{3D536BA6-2CB8-4E51-9602-A8C078D89F22}.Debug|Win32.Build.0 = Debug|Any CPU
+		{3D536BA6-2CB8-4E51-9602-A8C078D89F22}.Java|Win32.ActiveCfg = Release|Any CPU
+		{3D536BA6-2CB8-4E51-9602-A8C078D89F22}.Python|Win32.ActiveCfg = Release|Any CPU
+		{3D536BA6-2CB8-4E51-9602-A8C078D89F22}.Release|Win32.ActiveCfg = Release|Any CPU
+		{3D536BA6-2CB8-4E51-9602-A8C078D89F22}.Release|Win32.Build.0 = Release|Any CPU
+		{C31198E4-59C0-48DC-8CA4-5C66B91F0B00}.Debug|Win32.ActiveCfg = Debug|x86
+		{C31198E4-59C0-48DC-8CA4-5C66B91F0B00}.Debug|Win32.Build.0 = Debug|x86
+		{C31198E4-59C0-48DC-8CA4-5C66B91F0B00}.Java|Win32.ActiveCfg = Release|x86
+		{C31198E4-59C0-48DC-8CA4-5C66B91F0B00}.Python|Win32.ActiveCfg = Release|x86
+		{C31198E4-59C0-48DC-8CA4-5C66B91F0B00}.Release|Win32.ActiveCfg = Release|x86
+		{C31198E4-59C0-48DC-8CA4-5C66B91F0B00}.Release|Win32.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
