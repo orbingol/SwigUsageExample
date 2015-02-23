@@ -10,6 +10,6 @@ Structure:
   * **MyLibraryPython** - PyUnit unit-test code, plus script to copy the native-interface DLL to the right name
   * **MyLibrarySharp** - Builds the generated C# wrapper classes
 
-The Visual Studio solution can be used to build the C++ code and the generated C# bindings. It also generates the language wrappers for Java and Python, and builds the native interface DLLs too (in Java and Python solution configurations respectively). The Java JAR is build separately with the script in the **MyLibraryJava** directory.
+The Visual Studio solution can be used to build the C++ code and the generated C# bindings. It also generates the language wrappers for Java and Python, and builds the native interface DLLs too (in Java and Python solution configurations respectively). The Java JAR is built separately with the script in the **MyLibraryJava** directory.
 
 This example illustrates the language features discussed in the article [C++ API Design for SWIG](https://www.softwariness.com/articles/api-design-for-swig/).
